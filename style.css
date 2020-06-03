@@ -1,0 +1,92 @@
+.navbar{
+    
+    background-color: #FFB300 !important;
+
+}
+.nav-link{
+    color: white !important;
+    font-weight: bold;
+}
+.nav-menu{
+    color: #ffff;
+}
+.fa-home,.fa-user,.fa-store-alt,.fa-mobile-alt,.fa-phone{
+     font-size: 18px !important;
+     
+}
+.fa-truck,.fa-user-circle-o,.fa-thumbs-o-up{
+    font-size: 50px !important;
+    margin-right: 10px;
+    color:#FFB300 !important ;
+}
+
+
+.Card1,.Card2,.Card3 {
+    display:flex;
+    width: 30%;
+    height: 100px;
+    background-color: #fff;
+    box-shadow: 2px 4px 5px gray;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.mainCard {
+    margin-top: 30px;
+     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card-text{
+    font-weight: bold;
+    margin: 10px;
+}
+.btn-primary{
+    width: 100% !important;
+    background-color: #FFB300 !important;
+}
+.heading{
+    text-align: center;
+    font-weight: bold;
+    color:#FFB300;
+    margin: 20px;
+}
+
+h1{
+    color: #A04000 !important;
+}
+
+.heading > h2 {
+    text-shadow: 2px 2px 4px black;
+}
+
+.copy{
+    background-color: #FFB300;
+    width: 100%;
+    height: 70px;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.button.navbar-toggler{
+    color: black;
+}
+
+footer {
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    background-color: #FFB300;
+    color: white;
+  }
+
+
+@media screen and (max-width: 600px) {
+    .Card1,.Card2,.Card3 {
+        width: 100%;
+    }
+@fa-font-path:   "../font";

@@ -1,0 +1,42 @@
+.mobile3{
+    margin-top: 30px;
+      height: 200px !important;
+      padding: 10px;
+  }
+  .card-text{
+      font-weight: bold;
+      margin: 10px;
+  }
+  .btn-primary{
+      width: 100% !important;
+      background-color: #FFB300 !important;
+  }
+  .heading{
+      text-align: center;
+      font-weight: bold;
+      color:#FFB300;
+      margin: 20px;
+  }
+  .heading > h2 {
+      text-shadow: 2px 2px 4px black;
+  }
+  
+  .copy{
+      background-color: #FFB300;
+      width: 100%;
+      height: 70px;
+      margin: 20px;
+      padding: 20px;
+      text-align: center;
+  }
+  }
+  .button.navbar-toggler{
+      color: black;
+  }
+  
+  @media screen and (max-width: 600px) {
+      .Card1,.Card2,.Card3 {
+          width: 100px;
+      }
+  @fa-font-path:   "../font";
+  
